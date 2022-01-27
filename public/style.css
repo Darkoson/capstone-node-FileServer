@@ -1,0 +1,87 @@
+body{
+    background-image: url(/pexels-pixabay-269767.jpg); 
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color:#000000;
+    font-size: 7rem;
+    font-style: italic;
+}
+
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+p {
+    color:black;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#main{
+    text-align: center;
+    margin-top: 30rem;
+}
+
+li{
+    list-style-type: none;
+}
+
+#name{
+border:none;
+width:50rem;
+}
+
+#email{
+    border:none;
+    width:50rem;
+ }
+
+#password{
+        border:none;
+        width:50rem;
+}
+
+#submitBtn{
+    color:black;
+    border: none 1px black;
+    background-color: white;
+    font-weight: bold;
+}
+
+#submitBtn:hover{
+    background-color: #f90493bb;
+}
+
+#register, #login, a{
+    color: black;
+    text-decoration: none;
+}
+
+#register, #login{
+    background-color: white;
+}
+
+#register, #login a:hover{
+    color: blue;
+}
+
+#btn{
+    background-color: rgba(255, 0, 0, 0.781);
+    color:white;
+}
+
+#upload:hover{
+    background-color: #f90493bb;
+} 
+
+.prompt{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
